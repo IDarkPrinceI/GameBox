@@ -1,0 +1,63 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #BD3F32;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -270px 0 0 -270px;
+
+    width: 540px;
+    height: 540px;
+
+    border-radius: 15px;
+}
+.gameBody {
+    margin: 10px;
+
+    width: 300px;
+    height: 300px;
+    background-color: #c8bfbf;
+}
+.setTimer {
+    color: #8d8b8b;
+}
+.inputTimer {
+    margin-top: 8px;
+    padding: 15px;
+    width: 200px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.setTimerName {
+    font-size: 13px;
+    text-decoration: none;
+}
+.buttonStart {
+    position: absolute;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: yellow;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 50px;
+    margin: -30px 0 0 -60px;
+    font-size: 20px;
+}
+.buttonStart:hover {
+    background-color: #8f8f1d;
+    cursor: pointer;
+}
+.hide {
+    display: none;
+}
