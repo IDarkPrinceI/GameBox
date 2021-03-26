@@ -110,25 +110,3 @@ function startGame() {
     setBox(box, color)
 }
 
-function startGame123() {
-
-    hide(buttonStart)
-    let box = renderBox(),
-        color = renderColor()
-    setBox(box, color)
-}
-function new() {
-
-    hide(buttonStart)
-    let box = renderBox(),
-        color = renderColor()
-    setBox(box, color)
-}
-function new2() {
-
-    hide(buttonStart)
-    let box = renderBox(),
-        color = renderColor()
-    setBox(box, color)
-}
-
