@@ -124,4 +124,11 @@ function new() {
         color = renderColor()
     setBox(box, color)
 }
+function new2() {
+
+    hide(buttonStart)
+    let box = renderBox(),
+        color = renderColor()
+    setBox(box, color)
+}
 
