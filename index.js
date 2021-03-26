@@ -117,4 +117,11 @@ function startGame123() {
         color = renderColor()
     setBox(box, color)
 }
+function new() {
+
+    hide(buttonStart)
+    let box = renderBox(),
+        color = renderColor()
+    setBox(box, color)
+}
 
